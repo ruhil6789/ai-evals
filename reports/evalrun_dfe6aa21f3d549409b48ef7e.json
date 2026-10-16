@@ -1,0 +1,40 @@
+{
+  "object": "eval.run",
+  "id": "evalrun_dfe6aa21f3d549409b48ef7e",
+  "eval_id": "eval_da8545e476b148c0b46208d0",
+  "report_url": "/data/Python/python_basic/evals/reports/evalrun_dfe6aa21f3d549409b48ef7e.md",
+  "status": "completed",
+  "model": "ablated-5",
+  "name": "ablated-5",
+  "created_at": 1791953096,
+  "result_counts": {
+    "total": 527,
+    "errored": 0,
+    "failed": 366,
+    "passed": 161
+  },
+  "per_model_usage": [
+    {
+      "model_name": "ablated-5",
+      "invocation_count": 527,
+      "prompt_tokens": 75611,
+      "completion_tokens": 1581,
+      "total_tokens": 77192,
+      "cached_tokens": 0
+    }
+  ],
+  "per_testing_criteria_results": [
+    {
+      "testing_criteria": "Exact match (pred == gold composer)-76abe3a2c919",
+      "passed": 161,
+      "failed": 366
+    },
+    {
+      "testing_criteria": "Top-3 contains gold composer-fe33bed3046c",
+      "passed": 331,
+      "failed": 196
+    }
+  ],
+  "error": null,
+  "metadata": {}
+}

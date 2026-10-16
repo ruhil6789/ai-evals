@@ -1,0 +1,41 @@
+{
+  "object": "eval.run",
+  "id": "evalrun_f1af697f5e7a4e8e806688c4",
+  "eval_id": "eval_404ddd65cca4423ea21e59d9",
+  "report_url": "/data/Python/python_basic/evals/reports/evalrun_f1af697f5e7a4e8e806688c4.md",
+  "status": "completed",
+  "model": "ticket-stub-v1",
+  "name": "Categorization text run",
+  "created_at": 1792134754,
+  "result_counts": {
+    "total": 6,
+    "errored": 0,
+    "failed": 0,
+    "passed": 6
+  },
+  "per_model_usage": [
+    {
+      "model_name": "ticket-stub-v1",
+      "invocation_count": 6,
+      "prompt_tokens": 224,
+      "completion_tokens": 6,
+      "total_tokens": 230,
+      "cached_tokens": 0
+    }
+  ],
+  "per_testing_criteria_results": [
+    {
+      "testing_criteria": "Match output to human label-1f82317a94d6",
+      "passed": 6,
+      "failed": 0
+    },
+    {
+      "testing_criteria": "Output is a valid category-18d6792ed3d4",
+      "passed": 6,
+      "failed": 0
+    }
+  ],
+  "error": null,
+  "metadata": {},
+  "config": null
+}

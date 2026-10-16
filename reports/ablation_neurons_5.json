@@ -1,0 +1,56 @@
+{
+  "neurons_ablated": [
+    5
+  ],
+  "mode": "inference_zero_hidden",
+  "baseline": {
+    "exact_match_pass_rate": 0.3036053130929791,
+    "top3_pass_rate": 0.635673624288425,
+    "result_counts": {
+      "total": 527,
+      "errored": 0,
+      "failed": 367,
+      "passed": 160
+    },
+    "run_id": "evalrun_50e114e6e0eb4aa9a1678181",
+    "per_criteria": {
+      "Exact match (pred == gold composer)": {
+        "passed": 160,
+        "failed": 367,
+        "pass_rate": 0.3036053130929791
+      },
+      "Top-3 contains gold composer": {
+        "passed": 335,
+        "failed": 192,
+        "pass_rate": 0.635673624288425
+      }
+    }
+  },
+  "ablated": {
+    "exact_match_pass_rate": 0.3055028462998102,
+    "top3_pass_rate": 0.6280834914611005,
+    "result_counts": {
+      "total": 527,
+      "errored": 0,
+      "failed": 366,
+      "passed": 161
+    },
+    "run_id": "evalrun_9648034bb2ee4d7884123fc2",
+    "per_criteria": {
+      "Exact match (pred == gold composer)": {
+        "passed": 161,
+        "failed": 366,
+        "pass_rate": 0.3055028462998102
+      },
+      "Top-3 contains gold composer": {
+        "passed": 331,
+        "failed": 196,
+        "pass_rate": 0.6280834914611005
+      }
+    }
+  },
+  "delta": {
+    "exact_match_pass_rate": 0.0018975332068311146,
+    "top3_pass_rate": -0.007590132827324458
+  }
+}

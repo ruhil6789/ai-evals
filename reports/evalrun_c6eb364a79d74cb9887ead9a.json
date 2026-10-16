@@ -1,0 +1,43 @@
+{
+  "object": "eval.run",
+  "id": "evalrun_c6eb364a79d74cb9887ead9a",
+  "eval_id": "eval_30ab201a3b7847e19161d00c",
+  "report_url": "/data/Python/python_basic/evals/reports/evalrun_c6eb364a79d74cb9887ead9a.md",
+  "status": "completed",
+  "model": "ComposerClassifier-bow",
+  "name": "lyrics-composer-test",
+  "created_at": 1791896308,
+  "result_counts": {
+    "total": 527,
+    "errored": 0,
+    "failed": 367,
+    "passed": 160
+  },
+  "per_model_usage": [
+    {
+      "model_name": "ComposerClassifier-bow",
+      "invocation_count": 527,
+      "prompt_tokens": 75611,
+      "completion_tokens": 1581,
+      "total_tokens": 77192,
+      "cached_tokens": 0
+    }
+  ],
+  "per_testing_criteria_results": [
+    {
+      "testing_criteria": "Exact match (pred == gold composer)-9aa3f95d0fbd",
+      "passed": 160,
+      "failed": 367
+    },
+    {
+      "testing_criteria": "Top-3 contains gold composer-29ad0c569a56",
+      "passed": 335,
+      "failed": 192
+    }
+  ],
+  "error": null,
+  "metadata": {
+    "checkpoint": "/data/Python/python_basic/evals/artifacts/composer_model.pt",
+    "gold": "/data/Python/python_basic/evals/data/lyrics_composer_gold.jsonl"
+  }
+}

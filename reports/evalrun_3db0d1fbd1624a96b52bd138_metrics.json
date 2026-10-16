@@ -1,0 +1,25 @@
+{
+  "task": "map lyrics \u2192 one of 10 composers",
+  "n_test": 527,
+  "exact_match_pass_rate": 0.3036053130929791,
+  "top3_pass_rate": 0.635673624288425,
+  "result_counts": {
+    "total": 527,
+    "errored": 0,
+    "failed": 367,
+    "passed": 160
+  },
+  "per_criteria": {
+    "Exact match (pred == gold composer)": {
+      "passed": 160,
+      "failed": 367,
+      "pass_rate": 0.3036053130929791
+    },
+    "Top-3 contains gold composer": {
+      "passed": 335,
+      "failed": 192,
+      "pass_rate": 0.635673624288425
+    }
+  },
+  "run_id": "evalrun_3db0d1fbd1624a96b52bd138"
+}

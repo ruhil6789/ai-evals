@@ -1,0 +1,33 @@
+{
+  "task": "map lyrics \u2192 one of 10 composers",
+  "seed": 42,
+  "n_total": 3508,
+  "n_train": 2455,
+  "n_val": 526,
+  "n_test": 527,
+  "composers": [
+    "a r rahman",
+    "annu malik",
+    "c ramchandra",
+    "kalyanjianandji",
+    "laxmikantpyarelal",
+    "madan mohan",
+    "naushad",
+    "r d burman",
+    "s d burman",
+    "shankarjaikishan"
+  ],
+  "label2id": {
+    "a r rahman": 0,
+    "annu malik": 1,
+    "c ramchandra": 2,
+    "kalyanjianandji": 3,
+    "laxmikantpyarelal": 4,
+    "madan mohan": 5,
+    "naushad": 6,
+    "r d burman": 7,
+    "s d burman": 8,
+    "shankarjaikishan": 9
+  },
+  "gold_path": "/data/Python/python_basic/evals/data/lyrics_composer_gold.jsonl"
+}

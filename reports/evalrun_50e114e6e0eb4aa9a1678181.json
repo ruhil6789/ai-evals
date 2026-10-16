@@ -1,0 +1,40 @@
+{
+  "object": "eval.run",
+  "id": "evalrun_50e114e6e0eb4aa9a1678181",
+  "eval_id": "eval_b1416d5099f949d5864ed64a",
+  "report_url": "/data/Python/python_basic/evals/reports/evalrun_50e114e6e0eb4aa9a1678181.md",
+  "status": "completed",
+  "model": "baseline-full",
+  "name": "baseline-full",
+  "created_at": 1791953108,
+  "result_counts": {
+    "total": 527,
+    "errored": 0,
+    "failed": 367,
+    "passed": 160
+  },
+  "per_model_usage": [
+    {
+      "model_name": "baseline-full",
+      "invocation_count": 527,
+      "prompt_tokens": 75611,
+      "completion_tokens": 1581,
+      "total_tokens": 77192,
+      "cached_tokens": 0
+    }
+  ],
+  "per_testing_criteria_results": [
+    {
+      "testing_criteria": "Exact match (pred == gold composer)-12d851e0b4a0",
+      "passed": 160,
+      "failed": 367
+    },
+    {
+      "testing_criteria": "Top-3 contains gold composer-646ccc1759a8",
+      "passed": 335,
+      "failed": 192
+    }
+  ],
+  "error": null,
+  "metadata": {}
+}

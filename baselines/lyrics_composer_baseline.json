@@ -1,0 +1,7 @@
+{
+  "min_exact_match_pass_rate": 0.2732,
+  "min_top3_pass_rate": 0.5721,
+  "recorded_exact": 0.3036053130929791,
+  "recorded_top3": 0.635673624288425,
+  "note": "CE floors at 90% of recorded rates to allow small noise"
+}
